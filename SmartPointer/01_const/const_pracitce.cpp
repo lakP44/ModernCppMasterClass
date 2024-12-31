@@ -1,4 +1,4 @@
-#include "const_practice.h"
+#include "const_pracitce.h"
 
 // 얘는 컴파일 타임에 초기화되는 변수입니다.
 constinit float asd = 3.f;

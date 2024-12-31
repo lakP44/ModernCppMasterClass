@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{098b353d-7c20-423e-b256-e8088162dd5c}</ProjectGuid>
-    <RootNamespace>My01const</RootNamespace>
+    <ProjectGuid>{3f3cea33-fe8e-4a43-9515-3710766619b7}</ProjectGuid>
+    <RootNamespace>My02bitwiseoperators</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -104,7 +104,6 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,10 +127,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="const_practice.h" />
+    <ClInclude Include="02_bitwise_operators.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="const_practice.cpp" />
+    <ClCompile Include="02_bitwise_operators.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
