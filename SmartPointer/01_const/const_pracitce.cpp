@@ -1,9 +1,9 @@
-#include "const_pracitce.h"
+ï»¿#include "const_pracitce.h"
 
-// ¾ê´Â ÄÄÆÄÀÏ Å¸ÀÓ¿¡ ÃÊ±âÈ­µÇ´Â º¯¼öÀÔ´Ï´Ù.
+// ì–˜ëŠ” ì»´íŒŒì¼ íƒ€ì„ì— ì´ˆê¸°í™”ë˜ëŠ” ë³€ìˆ˜ì…ë‹ˆë‹¤.
 constinit float asd = 3.f;
 
-/// consteval Á¦°öÇÔ¼ö, ¿Ïº®È÷ ÄÄÆÄÀÏ Å¸ÀÓ¿¡ ½ÇÇàµË´Ï´Ù.
+/// consteval ì œê³±í•¨ìˆ˜, ì™„ë²½íˆ ì»´íŒŒì¼ íƒ€ì„ì— ì‹¤í–‰ë©ë‹ˆë‹¤.
 consteval int consteval_temp(int a)
 {
 	return a * a;
